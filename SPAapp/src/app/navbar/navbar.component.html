@@ -1,0 +1,26 @@
+<!-- Page Navbar -->
+<nav>
+  <a href="#" (click)="setActiveNav('#')"
+     [ngClass]="activeNav === '#' ? 'active' : ''">
+    <i class="fa-solid fa-user"></i>
+  </a>
+   <a href="#whoAmI" (click)="setActiveNav('#whoAmI')"
+     [ngClass]="activeNav === '#whoAmI' ? 'active' : ''">
+    <i class="fa-regular fa-circle-question "></i>
+  </a>
+  <a href="#whatIdo" (click)="setActiveNav('#whatIdo')"
+     [ngClass]="activeNav === '#whatIdo' ? 'active' : ''">
+    <i class="fa-solid fa-terminal "></i>
+  </a>
+
+  <a href="#hobbies" (click)="setActiveNav('#hobbies')"
+     [ngClass]="activeNav === '#hobbies' ? 'active' : ''">
+    <i class="fa-solid fa-gamepad "></i>
+  </a>
+
+  <a href="#footer" (click)="setActiveNav('#footer')"
+     [ngClass]="activeNav === '#footer' ? 'active' : ''">
+    <i class="fa-solid fa-stop"></i>
+  </a>
+</nav>
+<!-- End of Page Navbar -->

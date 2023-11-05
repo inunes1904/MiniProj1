@@ -1,0 +1,108 @@
+h1{
+  padding-top: 4rem;
+  font-weight:900;
+  font-size: 3.6rem;
+  color: var(--color-bg);
+}
+h2{
+  color: var(--color-bg-variant);
+  font-size: 3.5rem;
+}
+h4 {
+  padding-top: 15px;
+  font-weight:400;
+  font-size: 2.60rem;
+  color:var(--color-dark-light);
+}
+
+.chat__text{
+  right:5rem;
+  position:relative;
+  width:50%;
+}
+
+.header__container{
+  text-align: center;
+  height: 100%;
+  position:relative;
+}
+
+/* Action buttons */
+.cta{
+  margin-top: 2.5rem;
+  display: flex;
+  gap:1.2rem;
+  justify-content: center;
+}
+
+
+/* HEADER SOCIALS */
+.header__socials{
+  display:inline-block;
+  align-items: center;
+  position:relative;
+  top: 5rem;
+  bottom: 3rem;
+}
+
+.social{
+  padding-left: 5rem;
+}
+
+
+/* ME */
+.me {
+  background: linear-gradient(var(--color-bg-variant), transparent);
+  width:25rem;
+  height:36rem;
+  position: relative;
+  margin-top: 2rem;
+  border-radius: 0 8rem 0 8rem;
+  overflow:  hidden;
+  padding: 1rem 1.5rem 0 0.5rem;
+  left:5rem;
+}
+
+
+
+/* media queries */
+
+/* medium devices Tablets */
+@media screen and (max-width: 1024px){
+  .container{
+    width: var(--container-width-md)
+  }
+  .chat__text{
+    right:5rem;
+    position:relative;
+    width:100%;
+  }
+  .header__socials{
+    display: block;
+  }
+  section{
+    margin-top:6rem;
+  }
+}
+/* small devices mobile phones */
+@media screen and (max-width: 600px){
+  .container{
+    width: var(--container-with-sm)
+  }
+  .chat__text{
+    right:5rem;
+    display: block;
+    position:relative;
+    width:100%;
+  }
+  .smallMedium{
+    font-size: 5px;
+  }
+  .header__socials{
+    display: block;
+  }
+  section{
+    margin-bottom:2rem;
+
+  }
+}
