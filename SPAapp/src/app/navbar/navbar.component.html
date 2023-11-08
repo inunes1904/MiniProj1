@@ -1,26 +1,21 @@
 <!-- Page Navbar -->
 <nav>
-  <a href="#" (click)="setActiveNav('#')"
-     [ngClass]="activeNav === '#' ? 'active' : ''">
+  <a  (click)="setActiveNav('#')" routerLink=""
+     [ngClass]="activeNav === '#' ? 'active' : ''" href="#">
     <i class="fa-solid fa-user"></i>
   </a>
-   <a href="#whoAmI" (click)="setActiveNav('#whoAmI')"
+   <a routerLink="who-am-i"  (click)="setActiveNav('#whoAmI')"
      [ngClass]="activeNav === '#whoAmI' ? 'active' : ''">
     <i class="fa-regular fa-circle-question "></i>
   </a>
-  <a href="#whatIdo" (click)="setActiveNav('#whatIdo')"
+  <a routerLink="what-i-do" (click)="setActiveNav('#whatIdo')"
      [ngClass]="activeNav === '#whatIdo' ? 'active' : ''">
     <i class="fa-solid fa-terminal "></i>
   </a>
 
-  <a href="#hobbies" (click)="setActiveNav('#hobbies')"
+  <a routerLink="hobbies" (click)="setActiveNav('#hobbies')"
      [ngClass]="activeNav === '#hobbies' ? 'active' : ''">
     <i class="fa-solid fa-gamepad "></i>
-  </a>
-
-  <a href="#footer" (click)="setActiveNav('#footer')"
-     [ngClass]="activeNav === '#footer' ? 'active' : ''">
-    <i class="fa-solid fa-stop"></i>
   </a>
 </nav>
 <!-- End of Page Navbar -->

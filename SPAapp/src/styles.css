@@ -37,7 +37,7 @@ html{
 
 body{
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  background: linear-gradient(0deg, rgba(84,0,0,1) 0%, rgba(117,0,0,1) 20%, rgba(177,0,0,1) 44%, rgba(255,226,226,1) 91%);
+  background: linear-gradient(0deg, rgba(84,0,0,1) 0%, rgba(117,0,0,1) 20%, rgba(177,0,0,1) 44%, rgba(255,209,209,1) 67%);
   color: var(--color-white);
   line-height: 1.7;
 

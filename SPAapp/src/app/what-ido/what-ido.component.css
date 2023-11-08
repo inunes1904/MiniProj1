@@ -1,4 +1,15 @@
+h5{
+  margin-top: -5rem;
+  font-size: 1.2rem;
+  color: var(--color-bg);
+}
+h2{
+  font-size: 2rem;
+}
 
+p{
+  color:var(--color-bg)
+}
 .text__whatIdo{
   padding-bottom: 2rem;
   margin-right: 12rem;
