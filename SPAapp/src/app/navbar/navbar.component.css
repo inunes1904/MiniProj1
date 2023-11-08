@@ -40,7 +40,7 @@ nav a.active {
     z-index: 2;
     position: fixed;
     left: 4%;
-    bottom:38rem;
+    bottom:28rem;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;

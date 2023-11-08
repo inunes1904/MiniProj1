@@ -7,6 +7,9 @@ import { WhatIdoComponent } from './what-ido/what-ido.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
+import {RouterLink, RouterOutlet} from "@angular/router";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +18,14 @@ import { FooterComponent } from './footer/footer.component';
     WhatIdoComponent,
     HobbiesComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    RouterOutlet,
+    RouterLink
   ],
   providers: [],
   bootstrap: [AppComponent]

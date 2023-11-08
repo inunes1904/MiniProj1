@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SPAapp';
+  activeNav: string  ='#';
+
+  setActiveNav(s: string) {
+    this.activeNav = s;
+  }
 }
